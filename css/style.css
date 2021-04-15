@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   background-color: #e5e5e5;
@@ -9,12 +10,122 @@ body {
   margin: 0 auto;
   width: 1500px;
 }
+.home {
+  background: url("../img/BG.png");
+  height: 1000px;
+  position: relative;
+}
+.header {
+  display: flex;
+}
+.logo {
+  display: block;
+}
+.header__logo {
+}
+.logo img {
+  display: block;
+}
+.menu {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 27px;
+
+  color: #262626;
+}
+.header__menu {
+}
+.menu__list {
+  list-style: none;
+  text-decoration: none;
+}
+.menu__item {
+}
+.menu__item--rectangle {
+  border-top: 3px solid #ff6033;
+}
+.fresh {
+  position: relative;
+}
+.fresh h1,
+.fresh p {
+  font-family: "Raleway", sans-serif;
+  padding-left: 180px;
+  color: #262626;
+}
+.fresh h1 {
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 70px;
+  padding-top: 282px;
+  padding-bottom: 15px;
+}
+.fresh p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 27px;
+  padding-bottom: 28px;
+}
+.button {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 16px 25px;
+  background: #ff6033;
+  border: 1px solid #ff6033;
+  border-radius: none;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.fresh__button {
+  position: absolute;
+  top: 578px;
+  left: 180px;
+}
+.scrol {
+  background: none;
+  position: absolute;
+  top: 890px;
+  left: 738px;
+}
+.home__scrol {
+}
 .about {
   background: url("../img/BG2.png");
+  display: flex;
+  padding: 21px 0;
+  height: 700px;
+  position: relative;
 }
 .malina {
   width: 666px;
-  /* position: absolute;
+  position: absolute;
   left: 111px;
-  top: 21px; */
+  top: 21px;
+}
+.text h1 {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 90px;
+  line-height: 106px;
+  padding-top: 165px;
+  padding-left: 820px;
+  color: #ffffff;
+}
+.text p {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 27px;
+  padding-right: 180px;
+  padding-left: 820px;
+  color: #ffffff;
 }

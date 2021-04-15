@@ -9,13 +9,45 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
 
     <title>Lesson11_part2 BEM</title>
   </head>
   <body>
     <div class="wrapper">
-      <div class="home"></div>
+      <article class="home">
+        <header class="header">
+          <a href="" class="logo header__logo">
+            <img src="img/Logo.png" alt="Cahee" />
+            <nav class="menu header__menu">
+              <ul class="menu__list">
+                <li class="menu__item menu__item--rectangle">
+                  <a href="">Home</a>
+                </li>
+                <li class="menu__item"><a href="#">About</a></li>
+                <li class="menu__item"><a href="#">Services</a></li>
+                <li class="menu__item"><a href="#">Gallery</a></li>
+                <li class="menu__item"><a href="#">Blog</a></li>
+                <li class="menu__item"><a href="#">Contact</a></li>
+              </ul>
+            </nav>
+          </a>
+        </header>
+        <div class="fresh">
+          <h1>Fresh Life</h1>
+          <p>
+            Sed do eiusmod tempor incididunt ut labore et <br />dolore magna
+            aliqua. Ut enim ad minim veniam,<br />
+            quis nostrud exercitation ullamco.
+          </p>
+          <button class="button fresh__button">GET FREE NOW</button>
+        </div>
+
+        <a href="#" class="scrol home__scrol">
+          <img src="img/ScrollIcon.jpg" alt="scrol" />
+        </a>
+      </article>
       <div class="about">
         <div class="malina about__malina">
           <img src="img/plate.png" alt="malina" />
@@ -28,6 +60,7 @@
             consequat. Duis aute irure dolor in reprehenderit in voluptate velit
             esse cillum.
           </p>
+          <br />
           <p>
             Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error
             sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
