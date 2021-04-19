@@ -17,16 +17,17 @@ body {
 }
 .header {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
 }
 .logo {
   display: block;
-
-  padding-left: 180px;
 }
 
 .logo img {
   display: block;
-  padding-top: 50px;
+  margin-left: 50px;
 }
 .menu {
   display: flex;
@@ -39,23 +40,29 @@ body {
   font-size: 16px;
   line-height: 27px;
 
-  margin-top: 50px;
-
   color: #262626;
 }
 
 .menu__list {
   display: flex;
   list-style: none;
-  text-decoration: none;
-  /* margin-left: 459px; */
 }
 .menu__item:not(:last-child) {
-  padding-right: 36px;
+  margin-right: 36px;
 }
-.rectangle {
+.menu__item a {
+  font-family: "Raleway", sans-serif;
+  color: #262626;
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 27px;
+  text-decoration: none;
+
+  border-top: 3px solid transparent;
+}
+.menu__item:hover a {
   border-top: 3px solid #ff6033;
-  width: 50px;
 }
 .fresh {
   position: relative;
